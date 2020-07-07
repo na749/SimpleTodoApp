@@ -87,6 +87,7 @@ class MainActivity : AppCompatActivity() ,MasterFragment.OnListFragmentInteracti
         return  true
     }
 
+    //MyReViAd,Master,Mainからのコールバックメソッド
     override fun onListItemClick(item: TodoDB) {
         goEditScreen(item.todoTask,ModeInEdit.EDIT)
     }

@@ -47,6 +47,8 @@ class MyMasterRecyclerViewAdapter(
         holder.textTodo.text = mValues[position]!!.todoTask
         holder.checkBox
 
+
+        //RecyclerViewのクリックリスナー
         with(holder.mView) {
             tag = item
             setOnClickListener(mOnClickListener)

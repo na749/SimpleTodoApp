@@ -135,7 +135,7 @@ class EditFragment : Fragment() {
 
         //とってきたデータの更新
         selectedTodo!!.apply {
-            todo = textInputLayout.text.toString()
+            todoTask = textInputLayout.text.toString()
         }
 
         realm.commitTransaction()
